@@ -1,0 +1,20 @@
+.testi{
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+.test_title
+{
+    font-size: 16px !important;
+    font-weight: 900;
+}
+.test_designation
+{
+    font-size: 15px !important;
+    font-weight: 900;
+}
+.test_desc
+{
+    font-size: 16px !important;
+    font-weight: 300;
+}

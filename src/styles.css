@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+h1,h2,h3,h4,h5,h6{font-family: 'Quicksand', sans-serif;}
+.title-blue{
+    font-family: 'Quicksand', sans-serif;
+    color: #4B83B0;
+    padding-bottom: 18px;
+    font-size: 49px;
+}
+li{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+}
+.bg_orange{background: #FFB81A}
+.orange{color: #FFB81A}
+.blue{color: #4B83B0;}
+.p-40{padding: 40px 0px;}
+.cont-middle{text-align: center}
+.white{color: #fff;padding: 0px 0px 30px 0px;}

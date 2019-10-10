@@ -1,0 +1,187 @@
+.my-4
+{
+    background-image: url('../../assets/images/oyesafe_img1.png');
+    background-position: center center;
+    background-size: cover;
+    width: 592px;
+    height: 484px;
+}
+.hand{
+  position: absolute;
+  right: 76px;
+  top: 380px;
+  z-index: 200;
+  width: 200px;
+}
+.w-100 
+{
+    width: 153px !important;
+    position: relative;
+    left: 189px;
+    top: 111px;
+    z-index: 30000;
+}
+.carousel{position: unset !important}
+.carousel-item{height:430px}
+.carousel-indicators li{
+        text-indent: 0px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background: #FFB81A;
+        height: 38px;
+        padding: 12px;
+        border-radius: 15px;
+        width: 79px;
+        font-size: 11px;
+        margin: 0px 10px;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+}
+.carousel-indicators li:first-child:hover {
+  margin-left: 150px;
+  -webkit-transition-property: margin-left; /* Safari */
+  -webkit-transition-duration: 2s; /* Safari */
+  transition-property: margin-left;
+  transition-duration: 2s;
+}
+.carousel-indicators li:last-child:hover {
+  margin-right: 150px;
+  -webkit-transition-property: margin-right; /* Safari */
+  -webkit-transition-duration: 2s; /* Safari */
+  transition-property: margin-right;
+  transition-duration: 2s;
+}
+.carousel-indicators .active
+{
+    text-indent: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #FFB81A;
+    height: 67px;
+    padding: 17px;
+    border-radius: 15px;
+    width: 102px;
+    font-size: 14px;
+    margin: 0px 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px #ededed;
+    text-align: center;  
+  }
+
+.carousel-indicators
+    {
+        padding: 20px;
+        top:50px !important;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: -531px;
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+        width: 100%;
+        overflow: hidden;
+        scroll-snap-type: mandatory;
+        scroll-snap-points-y: repeat(300px);
+        scroll-snap-type: y mandatory;
+  }
+
+  /** Media Queries */
+  @media screen and (max-width: 992px) and (min-width: 590px) {
+      .hand{
+        right: 55px;
+        top: 482px;
+      }
+    } 
+  @media screen and (max-width: 590px) and (min-width: 450px) {
+      .hand{
+        right: 66px;
+    top: 521px;
+      }
+    } 
+
+  @media screen and (max-width: 450px) and (min-width: 250px) {
+      .hand{
+        right: 42px;
+        top: 467px;
+        width: 120px;
+      }
+    } 
+  @media screen and (max-width: 767px) and (min-width: 576px) {
+        .w-100{
+             left:164px !important;
+             
+        }
+      }
+  @media screen and (max-width: 1199px) and (min-width: 1002px) {
+        .carousel-indicators{
+             left:-439px !important;
+        }
+      }
+
+  @media screen and (max-width: 1002px) and (min-width: 760px) {
+        .carousel-indicators{
+            left:-159px !important;
+        }
+      }
+  @media screen and (max-width: 760px) and (min-width: 640px) {
+        .carousel-indicators{
+        left:-170px !important;
+        }
+      }
+  @media screen and (max-width: 640px) and (min-width: 450px) {
+      .carousel-indicators{
+        left:-84px !important;
+        }
+        
+      .my-4
+        {
+            background-image: url('../../assets/images/oyesafe_img1.png');
+            background-position: center center;
+            background-size: contain;
+            width: 535px;
+            height: 436px; 
+        }
+      .w-100{
+            width: 137px !important;
+            position: relative;
+            left: 170px;
+            top: 102px;
+            z-index: 30000;
+      }
+   }
+
+@media screen and (max-width: 450px) and (min-width: 250px) {
+    .carousel-indicators{
+        left:-62px !important;
+        top:-150px !important;
+        }
+      
+    .my-4
+        {
+            background-image: url('../../assets/images/oyesafe_img1.png');
+            background-position: center center;
+            background-size: contain;
+            width: 347px;
+            height: 281px; 
+        }
+    .w-100{
+       width: 88px !important;
+        position: relative;
+        left: 105px;
+        top: 68px;
+        z-index: 30000;
+
+      }
+    }
+    
+    
