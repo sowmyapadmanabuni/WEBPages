@@ -10,3 +10,9 @@
        background-color: #f7f6f6 !important;
       }
 }
+@media screen and (max-width: 992px) and (min-width: 250px) 
+{
+  .logo_space{margin: 10px 0px 0px 0px !important;}
+
+}  
+.logo_space{margin: 10px 0px 0px 37px;}

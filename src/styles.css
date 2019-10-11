@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-h1,h2,h3,h4,h5,h6{font-family: 'Quicksand', sans-serif;}
+body,h1,h2,h3,h4,h5,h6{font-family: 'Quicksand', sans-serif;}
 .title-blue{
     font-family: 'Quicksand', sans-serif;
     color: #4B83B0;
@@ -18,11 +18,92 @@ li{
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
-    font-size: 21px;
+    font-size: 20px;
 }
+.demo
+{
+    background-color: #232222;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.demo:hover
+{
+    background-color: #FFB81A;
+    
+}
+.fa-lg{color:#000}
 .bg_orange{background: #FFB81A}
 .orange{color: #FFB81A}
 .blue{color: #4B83B0;}
 .p-40{padding: 40px 0px;}
 .cont-middle{text-align: center}
 .white{color: #fff;padding: 0px 0px 30px 0px;}
+.nav-link:hover{color: #FFB81A !important} 
+.navbar-light .navbar-nav .active>.nav-link{color: #FFB81A !important} 
+
+hr
+{
+    background-color: #84828045;
+    border: none !important;
+    border-radius: 7px 7px 7px 7px;
+    height: 14px !important;
+    width: 80px !important;
+}
+
+.dropdown-menu{
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgb(247, 185, 68);
+    border-radius: .25rem;
+    box-shadow: 0px 1px 7px -3px #f7b944;
+}
+.dropdown-item:hover{background-color:rgb(247, 185, 68) !important;}
+@media screen and (max-width: 1500px) and (min-width: 1400px) 
+{
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        left: 700px;
+        top: 66px !important;
+    }
+}  
+
+@media screen and (max-width: 1400px) and (min-width: 1386px) 
+{
+    .navbar-nav .dropdown-menu {
+        left: 679px;
+        top: 68px !important;
+    }
+}  
+
+@media screen and (max-width: 1386px) and (min-width: 1290px) 
+{
+    .navbar-nav .dropdown-menu {
+        left: 579px;
+        top: 68px !important;
+    }
+} 
+@media screen and (max-width: 1290px) and (min-width: 1186px) 
+{
+    .navbar-nav .dropdown-menu {
+        left: 470px;
+        top: 68px !important;
+    }
+} 
+@media screen and (max-width: 1186px) and (min-width: 1080px) 
+{
+    .navbar-nav .dropdown-menu {
+        left: 400px;
+        top: 68px !important;
+    }
+}
+@media screen and (max-width: 1080px) and (min-width: 992px) 
+{
+    .navbar-nav .dropdown-menu {
+        left: 300px;
+        top: 68px !important;
+    }
+}  

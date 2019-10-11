@@ -161,7 +161,8 @@
    }
 
 @media screen and (max-width: 450px) and (min-width: 250px) {
-    .carousel-indicators{
+    .carousel-indicators
+        {
         left:-62px !important;
         top:-150px !important;
         }
